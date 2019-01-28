@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Ivan Gabriele",
+      "authorEmail": "ivan.gabriele@gmail.com",
+      "authorUrl": "https://www.ivangabriele.com"
+    }
+  }
+}
