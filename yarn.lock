@@ -1183,7 +1183,7 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-confusing-browser-globals@1.0.9, confusing-browser-globals@^1.0.7:
+confusing-browser-globals@1.0.9, confusing-browser-globals@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.9.tgz#72bc13b483c0276801681871d4898516f8f54fdd"
   integrity sha512-KbS1Y0jMtyPgIxjO7ZzMAuUpAKMt1SzCL9fsrKsX6b0zJPTaT0SiSPmewwVZg9UAO83HVIlEhZF84LIjZ0lmAw==
@@ -1226,15 +1226,15 @@ cosmiconfig@^6.0.0:
     path-type "^4.0.0"
     yaml "^1.7.2"
 
-coveralls@3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/coveralls/-/coveralls-3.0.9.tgz#8cfc5a5525f84884e2948a0bf0f1c0e90aac0420"
-  integrity sha512-nNBg3B1+4iDox5A5zqHKzUTiwl2ey4k2o0NEcVZYvl+GOSJdKBj4AJGKLv6h3SvWch7tABHePAQOSZWM9E2hMg==
+coveralls@3.0.10:
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/coveralls/-/coveralls-3.0.10.tgz#165a0f3395a58c26036ada82cbc81cac618a2d73"
+  integrity sha512-HW0W5p9F95ww1mHyZP+mvIbHtz7VVwafngnR4HbNjedoH33QSpcl86hdCGBvMwnMV4ut8/Tp4IAIFpX05Kr92g==
   dependencies:
     js-yaml "^3.13.1"
     lcov-parse "^1.0.0"
     log-driver "^1.2.7"
-    minimist "^1.2.0"
+    minimist "^1.2.5"
     request "^2.88.0"
 
 create-error-class@^3.0.0:
@@ -1571,23 +1571,23 @@ escodegen@^1.11.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-airbnb-base@^14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-14.0.0.tgz#8a7bcb9643d13c55df4dd7444f138bf4efa61e17"
-  integrity sha512-2IDHobw97upExLmsebhtfoD3NAKhV4H0CJWP3Uprd/uk+cHuWYOczPVxQ8PxLFUAw7o3Th1RAU8u1DoUpr+cMA==
+eslint-config-airbnb-base@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-14.1.0.tgz#2ba4592dd6843258221d9bff2b6831bd77c874e4"
+  integrity sha512-+XCcfGyCnbzOnktDVhwsCAx+9DmrzEmuwxyHUJpw+kqBVT744OUBrB09khgFKlK1lshVww6qXGsYPZpavoNjJw==
   dependencies:
-    confusing-browser-globals "^1.0.7"
+    confusing-browser-globals "^1.0.9"
     object.assign "^4.1.0"
-    object.entries "^1.1.0"
+    object.entries "^1.1.1"
 
-eslint-config-airbnb@18.0.1:
-  version "18.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-18.0.1.tgz#a3a74cc29b46413b6096965025381df8fb908559"
-  integrity sha512-hLb/ccvW4grVhvd6CT83bECacc+s4Z3/AEyWQdIT2KeTsG9dR7nx1gs7Iw4tDmGKozCNHFn4yZmRm3Tgy+XxyQ==
+eslint-config-airbnb@18.1.0:
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-18.1.0.tgz#724d7e93dadd2169492ff5363c5aaa779e01257d"
+  integrity sha512-kZFuQC/MPnH7KJp6v95xsLBf63G/w7YqdPfQ0MUanxQ7zcKUNG8j+sSY860g3NwCBOa62apw16J6pRN+AOgXzw==
   dependencies:
-    eslint-config-airbnb-base "^14.0.0"
+    eslint-config-airbnb-base "^14.1.0"
     object.assign "^4.1.0"
-    object.entries "^1.1.0"
+    object.entries "^1.1.1"
 
 eslint-config-prettier@6.10.0:
   version "6.10.0"
@@ -2247,12 +2247,12 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.3:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
-grouped-queue@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/grouped-queue/-/grouped-queue-0.3.3.tgz#c167d2a5319c5a0e0964ef6a25b7c2df8996c85c"
-  integrity sha1-wWfSpTGcWg4JZO9qJbfC34mWyFw=
+grouped-queue@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/grouped-queue/-/grouped-queue-1.0.0.tgz#5bdb97934a9a17b19626ff3cc23c103f2622ef49"
+  integrity sha512-XslfWrAGCYovQjveHODR0hllUrsn3UtvPFTkamHbgVHmkUA6eCIDmw3JDWVLJvuntTvYjwaPGamlyzK4/HAEOA==
   dependencies:
-    lodash "^4.17.2"
+    lodash "^4.17.15"
 
 growly@^1.3.0:
   version "1.3.0"
@@ -2454,23 +2454,23 @@ inquirer@^6.0.0:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-inquirer@^7.0.0, inquirer@^7.0.3:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-7.0.4.tgz#99af5bde47153abca23f5c7fc30db247f39da703"
-  integrity sha512-Bu5Td5+j11sCkqfqmUTiwv+tWisMtP0L7Q8WrqA2C/BbBhy1YTdFrvjjlrKq8oagA/tLQBski2Gcx/Sqyi2qSQ==
+inquirer@^7.0.0, inquirer@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-7.1.0.tgz#1298a01859883e17c7264b82870ae1034f92dd29"
+  integrity sha512-5fJMWEmikSYu0nv/flMc475MhGbB7TSPd/2IpFV4I4rMklboCH2rQjYY5kKiYGHqUF9gvaambupcJFFG9dvReg==
   dependencies:
     ansi-escapes "^4.2.1"
-    chalk "^2.4.2"
+    chalk "^3.0.0"
     cli-cursor "^3.1.0"
     cli-width "^2.0.0"
     external-editor "^3.0.3"
     figures "^3.0.0"
     lodash "^4.17.15"
     mute-stream "0.0.8"
-    run-async "^2.2.0"
+    run-async "^2.4.0"
     rxjs "^6.5.3"
     string-width "^4.1.0"
-    strip-ansi "^5.1.0"
+    strip-ansi "^6.0.0"
     through "^2.3.6"
 
 internal-slot@^1.0.2:
@@ -3436,7 +3436,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.2:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -3618,10 +3618,10 @@ minimist@0.0.8:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
-minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -3821,7 +3821,7 @@ object.assign@^4.1.0:
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
 
-object.entries@^1.1.0, object.entries@^1.1.1:
+object.entries@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object.entries/-/object.entries-1.1.1.tgz#ee1cf04153de02bb093fec33683900f57ce5399b"
   integrity sha512-ilqR7BgdyZetJutmDPfXCDffGa0/Yzl2ivVNpbx/g4UeWrCdRnFDUBrKJGLhGieRHDATnyZXWBeCb29k9CJysQ==
@@ -4509,10 +4509,10 @@ rsvp@^4.8.4:
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
-run-async@^2.0.0, run-async@^2.2.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
-  integrity sha1-A3GrSuC91yDUFm19/aZP96RFpsA=
+run-async@^2.0.0, run-async@^2.2.0, run-async@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.0.tgz#e59054a5b86876cfae07f431d18cbaddc594f1e8"
+  integrity sha512-xJTbh/d7Lm7SBhc1tNvTpeCHaEzoyxPrqNlvSdMfBTYwaY++UJFyXUOxAtsRUXjlqOfj8luNaR9vjCh4KeV+pg==
   dependencies:
     is-promise "^2.1.0"
 
@@ -5607,10 +5607,10 @@ yeoman-assert@3.1.1:
   resolved "https://registry.yarnpkg.com/yeoman-assert/-/yeoman-assert-3.1.1.tgz#9f6fa0ecba7dd007c40f579668cb5dda18c79343"
   integrity sha512-bCuLb/j/WzpvrJZCTdJJLFzm7KK8IYQJ3+dF9dYtNs2CUYyezFJDuULiZ2neM4eqjf45GN1KH/MzCTT3i90wUQ==
 
-yeoman-environment@^2.3.4, yeoman-environment@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-2.7.0.tgz#d1b6679de883ce14a68b869c4b19d55a0d66f477"
-  integrity sha512-YNzSUWgJVSgnm0qgLON4Gb2nTm+kywBiWjK4MbvosjUP2YJJ30lNhEx7ukyzKRPUlsavd5IsuALtF6QaVrq81A==
+yeoman-environment@^2.3.4, yeoman-environment@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-2.8.1.tgz#76c52fcccf26bcbd7ded35d9e22a9f3f1394d241"
+  integrity sha512-MV6yeJfnSsZBv/VuWvw82bN6hF6KIXRUwhEPaO+RHJAWeNCQAF+iYfBNsJOo4tx5Puch300h+DF9QZceKkbzQg==
   dependencies:
     chalk "^2.4.1"
     cross-spawn "^6.0.5"
@@ -5618,7 +5618,7 @@ yeoman-environment@^2.3.4, yeoman-environment@^2.7.0:
     diff "^3.5.0"
     escape-string-regexp "^1.0.2"
     globby "^8.0.1"
-    grouped-queue "^0.3.3"
+    grouped-queue "^1.0.0"
     inquirer "^6.0.0"
     is-scoped "^1.0.0"
     lodash "^4.17.10"
@@ -5628,10 +5628,10 @@ yeoman-environment@^2.3.4, yeoman-environment@^2.7.0:
     text-table "^0.2.0"
     untildify "^3.0.3"
 
-yeoman-generator@4.7.0, yeoman-generator@^4.4.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/yeoman-generator/-/yeoman-generator-4.7.0.tgz#6ca51a1d6b09f2cb859406a9c9be7fb66071208f"
-  integrity sha512-feJdiC7CeRfKlB0mNqX9r3Hkh2TE6NHI3uSlmy7JRup2STOdUM5MMzf/IXAvi+vvAsxTRHDY+6xDhl2D2Em/sQ==
+yeoman-generator@4.7.2, yeoman-generator@^4.7.1:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/yeoman-generator/-/yeoman-generator-4.7.2.tgz#07edfc14208b1411032711ba89330915b9da345f"
+  integrity sha512-huqFGIDkS8tPWl9cnOsied8eYz0l4wh6O6Ce71y86Phiq9E2WCrpoqRFL4C6znkgmzTAq5QX3eh9IYeuxZMqzQ==
   dependencies:
     async "^2.6.2"
     chalk "^2.4.2"
@@ -5659,19 +5659,19 @@ yeoman-generator@4.7.0, yeoman-generator@^4.4.0:
     through2 "^3.0.1"
     yeoman-environment "^2.3.4"
 
-yeoman-test@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/yeoman-test/-/yeoman-test-2.2.0.tgz#c7d9ef22a37bfa0ae21b1702c8142d8b789703f2"
-  integrity sha512-JxZSiPnuxRR/7ESx0A/VK2HREbhnaCEtDK3vx4XwM8ltgdVe+jm4bCTXpBJVoWqcZ9JxGmUKxiS6TOQl5C+2fg==
+yeoman-test@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/yeoman-test/-/yeoman-test-2.3.0.tgz#4f37c6a15b1ccc24fc971d93933de87d331f5d16"
+  integrity sha512-4noKP8/rN/CwKxC4Qf6y4IfI4IJKn3dcLPPrh693TKDmh3k0P4ZqXK1OInaCFxbtIFVrTJMbmlallRr9T5322w==
   dependencies:
-    inquirer "^7.0.3"
+    inquirer "^7.1.0"
     lodash "^4.17.15"
     mkdirp "^0.5.1"
     pinkie-promise "^2.0.1"
     rimraf "^3.0.0"
     sinon "^8.0.4"
-    yeoman-environment "^2.7.0"
-    yeoman-generator "^4.4.0"
+    yeoman-environment "^2.8.1"
+    yeoman-generator "^4.7.1"
 
 yosay@2.0.2:
   version "2.0.2"
