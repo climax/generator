@@ -12,10 +12,10 @@
     "yeoman-generator"
   ],
   "devDependencies": {
-    "coveralls": "3.0.10",
+    "coveralls": "3.0.11",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "18.1.0",
-    "eslint-config-prettier": "6.10.0",
+    "eslint-config-prettier": "6.10.1",
     "eslint-config-xo": "0.29.1",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jest": "23.8.2",
